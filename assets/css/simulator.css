@@ -1,0 +1,136 @@
+.simulator{}
+
+.galaxyS3-portrait {
+	background: url("../images/androidphone-p.png") no-repeat scroll center center transparent;
+	height: 850px;
+	width: 850px;
+}
+
+.galaxyS3-portrait  > .simulator-screen{
+	height: 637px;
+	padding: 87px 0 0 244px;
+	position: absolute;
+	width: 356px;
+}
+
+.galaxyS3-landscape{
+	background: url("../images/androidphone-l.png") no-repeat scroll 0 center transparent;
+	height: 480px;
+	width: 850px;
+}
+
+.galaxyS3-landscape > .simulator-screen{
+	height: 360px;
+	padding: 53px 0 0 105px;
+	position: absolute;
+	width: 640px
+}
+
+.iphone4-landscape{
+	background: url("../images/iphone-l.png") no-repeat scroll 0 center transparent;
+	height: 440px;
+	width: 850px;
+}
+
+.iphone4-landscape > .simulator-screen{
+	height: 315px;
+    padding: 51px 0 0 162px;
+    position: absolute;
+    width: 475px;
+}
+
+.iphone4-portrait {
+	background: url("../images/iphone-p.png.") no-repeat scroll center center transparent;
+	height: 850px;
+	width: 850px;
+}
+
+.iphone4-portrait  > .simulator-screen{
+	height: 473px;
+    padding: 177px 0 0 264px;
+    position: absolute;
+    width: 319px;
+}
+
+.iphone5-landscape{
+	background: url("../images/iphone5-l.png") no-repeat scroll 0 center transparent;
+	height: 420px;
+	width: 850px;
+}
+
+.iphone5-landscape > .simulator-screen{
+	height: 317px;
+    padding: 47px 0 0 130px;
+    position: absolute;
+    width: 560px;
+}
+
+.iphone5-portrait {
+	background: url("../images/iphone5-p.png.") no-repeat scroll center center transparent;
+	height: 850px;
+	width: 850px;
+}
+
+.iphone5-portrait  > .simulator-screen{
+	height: 563px;
+    padding: 135px 0 0 266px;
+    position: absolute;
+    width: 317px;
+}
+
+.ipad-landscape{
+	background: url("../images/ipad-l.png") no-repeat scroll 0 center transparent;
+    height: 1050px;
+    width: 1350px;
+}
+
+.ipad-landscape > .simulator-screen{
+	height: 764px;
+    padding: 125px 0 0 180px;
+    position: absolute;
+    width: 1020px;
+}
+
+.ipad-portrait {
+	background: url("../images/ipad-p.png.") no-repeat scroll center center transparent;
+    height: 1400px;
+    width: 1150px;
+}
+
+.ipad-portrait  > .simulator-screen{
+	height: 1020px;
+    padding: 170px 0 0 191px;
+    position: absolute;
+    width: 764px;
+}
+
+.win8Phone-landscape{
+	background: url("../images/win8Phone-l.png") no-repeat scroll 0 center transparent;
+	height: 440px;
+	width: 850px;
+}
+
+.win8Phone-landscape > .simulator-screen{
+	height: 323px;
+    padding: 56px 0 0 88px;
+    position: absolute;
+    width: 559px;
+}
+
+.win8Phone-portrait {
+	background: url("../images/win8Phone-p.png.") no-repeat scroll center center transparent;
+	height: 850px;
+	width: 850px;
+}
+
+.win8Phone-portrait  > .simulator-screen{
+	height: 563px;
+    padding: 135px 0 0 266px;
+    position: absolute;
+    width: 317px;
+}
+
+.simulator-page{
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DevExpress Device Simulator</title>
+	<link rel="stylesheet"  href="../assets/css/jquery.mobile.min.css">
+	<script src="../assets/js/jquery.js"></script>
+	<script src="../assets/js/jquery.mobile.min.js"></script>
+	<script src="../assets/js/simulator.js"></script>
+	<link rel="stylesheet" href="../assets/css/simulator.css">
+    </head>
+    <body>
+		<div data-role="page" id="demo-page" data-theme="d">
+			<div data-role="header" data-theme="b">
+				<h1>Swipe left or right</h1>
+				<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Options</a>
+			</div><!-- /header -->
+
+			<div data-role="content">
+
+				<div align="center">
+				<input placeholder="iFrame src" data-mini="true" name="txtIFrmSrc" id="txtIFrmSrc" value="" type="text">
+				<a href="#" id="btnIFrmSrc" data-role="button" data-icon="arrow-r" data-iconpos="right" data-inline="true">Change it</a>
+				<br/><br/>
+					<div id="simulator_aio" class="simulator galaxyS3-portrait">
+						<div class="simulator-screen">
+							<iframe id="simulatorPage" class="simulator-page" src="../tests/pages/multipage-template.html" id="deviceFrame"></iframe>
+						</div>
+					</div>
+				</div>
+			</div><!-- /content -->
+			
+				<div data-role="panel" id="left-panel" data-theme="b">
+					<div data-role="collapsible" data-mini="true">
+						<h4>Options:</h4>
+						<select data-mini="true" id="cboSimulatorStyle" data-native-menu="false" data-icon="grid">
+							<option value="galaxyS3">Choose a Simulator Style:</option>
+							<optgroup label="Android">
+								<option value="galaxyS3">Galaxy S3</option>
+							</optgroup>
+							<optgroup label="Apple">
+								<option value="iphone4">iPhone</option>
+								<option value="iphone5">iPhone5</option>
+								<option value="ipad">iPad</option>
+							</optgroup>
+							<optgroup label="Windows">
+								<option value="win8Phone">Windows 8 Phone</option>
+							</optgroup>
+						</select>
+						
+						
+						<select id="cboOrientation" data-mini="true" data-native-menu="false">
+							<option value="portrait">Portrait</option>
+							<option value="landscape">Landscape</option>
+						</select>
+						</div>
+				</div><!-- /panel -->
+		</div><!-- /page -->
+    </body>
+</html>
