@@ -118,7 +118,7 @@
 }
 
 .win8Phone-portrait {
-	background: url("../images/win8Phone-p.png.") no-repeat scroll center center transparent;
+	background: url("../images/win8Phone-p.png") no-repeat scroll center center transparent;
 	height: 850px;
 	width: 850px;
 }
