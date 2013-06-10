@@ -1,4 +1,9 @@
-MobileSimulator-SNE
-===================
+README
+======
 
-Mobile Simulator SNE (Simulator Not Emulator)
+SNE-MobileSimulator by @oyepez003
+---------------------------------
+
+SNE Mobile Simulator: (Simulator Not Emulator)
+
+[Try](http://sne.yepsua.com/)
