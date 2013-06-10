@@ -40,7 +40,7 @@
 }
 
 .iphone4-portrait {
-	background: url("../images/iphone-p.png.") no-repeat scroll center center transparent;
+	background: url("../images/iphone-p.png") no-repeat scroll center center transparent;
 	height: 850px;
 	width: 850px;
 }
@@ -66,7 +66,7 @@
 }
 
 .iphone5-portrait {
-	background: url("../images/iphone5-p.png.") no-repeat scroll center center transparent;
+	background: url("../images/iphone5-p.png") no-repeat scroll center center transparent;
 	height: 850px;
 	width: 850px;
 }
@@ -92,7 +92,7 @@
 }
 
 .ipad-portrait {
-	background: url("../images/ipad-p.png.") no-repeat scroll center center transparent;
+	background: url("../images/ipad-p.png") no-repeat scroll center center transparent;
     height: 1400px;
     width: 1150px;
 }
@@ -118,7 +118,7 @@
 }
 
 .win8Phone-portrait {
-	background: url("../images/win8Phone-p.png.") no-repeat scroll center center transparent;
+	background: url("../images/win8Phone-p.png") no-repeat scroll center center transparent;
 	height: 850px;
 	width: 850px;
 }
