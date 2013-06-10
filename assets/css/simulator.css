@@ -105,7 +105,7 @@
 }
 
 .win8Phone-landscape{
-	background: url("../images/win8Phone-l.png") no-repeat scroll 0 center transparent;
+	background: url("../images/win8phone-l.png") no-repeat scroll 0 center transparent;
 	height: 440px;
 	width: 850px;
 }
@@ -118,7 +118,7 @@
 }
 
 .win8Phone-portrait {
-	background: url("../images/win8Phone-p.png") no-repeat scroll center center transparent;
+	background: url("../images/win8phone-p.png") no-repeat scroll center center transparent;
 	height: 850px;
 	width: 850px;
 }
